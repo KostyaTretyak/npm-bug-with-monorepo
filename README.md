@@ -1,6 +1,6 @@
 ## About
 
-In monorepositories, `npm publish` and `npm pack` take into account `.gitignore` and ignore `.npmignore`.
+In monorepositories (with `workspaces` in `package.json`), `npm publish` and `npm pack` take into account `.gitignore` and ignore `.npmignore`.
 Tested with npm v9.6.7 and v10.1.0.
 
 ## Init
